@@ -40,8 +40,8 @@ namespace QR_CodeGenerator
             this.box_Code.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.box_Code.Location = new System.Drawing.Point(12, 12);
             this.box_Code.Name = "box_Code";
-            this.box_Code.Size = new System.Drawing.Size(406, 384);
-            this.box_Code.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.box_Code.Size = new System.Drawing.Size(597, 494);
+            this.box_Code.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.box_Code.TabIndex = 0;
             this.box_Code.TabStop = false;
             // 
@@ -50,7 +50,7 @@ namespace QR_CodeGenerator
             this.btn_CodeGenerator.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_CodeGenerator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_CodeGenerator.ForeColor = System.Drawing.Color.White;
-            this.btn_CodeGenerator.Location = new System.Drawing.Point(14, 440);
+            this.btn_CodeGenerator.Location = new System.Drawing.Point(103, 549);
             this.btn_CodeGenerator.Name = "btn_CodeGenerator";
             this.btn_CodeGenerator.Size = new System.Drawing.Size(405, 92);
             this.btn_CodeGenerator.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace QR_CodeGenerator
             // 
             // txt_Code
             // 
-            this.txt_Code.Location = new System.Drawing.Point(13, 403);
+            this.txt_Code.Location = new System.Drawing.Point(103, 512);
             this.txt_Code.Name = "txt_Code";
             this.txt_Code.Size = new System.Drawing.Size(404, 31);
             this.txt_Code.TabIndex = 2;
@@ -71,7 +71,7 @@ namespace QR_CodeGenerator
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(431, 548);
+            this.ClientSize = new System.Drawing.Size(621, 653);
             this.Controls.Add(this.txt_Code);
             this.Controls.Add(this.btn_CodeGenerator);
             this.Controls.Add(this.box_Code);
